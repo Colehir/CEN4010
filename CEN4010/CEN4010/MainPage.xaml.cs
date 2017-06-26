@@ -7,6 +7,7 @@ using Xamarin.Forms;
 
 namespace CEN4010
 {
+    Thermostat system = new Thermostat();
     public partial class MainPage : ContentPage
     {
         public bool tickEvent()
