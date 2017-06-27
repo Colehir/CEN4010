@@ -30,9 +30,16 @@ namespace CEN4010
             {
                 temperature -= .25;
             }
-            else
+            else    //the temperature should reach equilibrium
             {
-                temperature += 0.25;
+                if(temperature < ambientTemp)
+                {
+                    temperature += .25;
+                }
+                else if(temperature > ambientTemp)
+                {
+                    temperature -= .25;
+                }
             }
             
         }
