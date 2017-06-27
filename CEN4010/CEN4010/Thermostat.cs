@@ -12,7 +12,7 @@ namespace CEN4010
         {
             if (acOnUser)
             {
-                if (temp.getTemperature() > setTemperature)
+                if (temp.getTemperature() > temp.getAmbientTemp())
                 {
                     acOn = true;
                 }
@@ -45,7 +45,7 @@ namespace CEN4010
             return acOnUser;
         }
 
-        private int setTemperature = 80;
+        //private int setTemperature = 80;
         private bool acOn = false;
         private bool acOnUser = false;
         private Temperature temp = new Temperature();
