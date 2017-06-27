@@ -12,6 +12,12 @@ namespace CEN4010
         {
             return temperature;
         }
+        
+        public double getAmbientTemp()
+        {
+            return ambientTemp;
+        }
+        
         public void changeTemperature(bool acOn)
         {
             if (acOn)
@@ -25,5 +31,6 @@ namespace CEN4010
             
         }
         private double temperature = 71.0;
+        private double ambientTemp = 80.0;  //temperature without A/C
     }
 }
