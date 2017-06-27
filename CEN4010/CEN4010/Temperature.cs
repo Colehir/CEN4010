@@ -18,6 +18,11 @@ namespace CEN4010
             return ambientTemp;
         }
         
+        public void setAmbientTemp(double temp)
+        {
+            ambientTemp = temp;
+        }
+        
         public void changeTemperature(bool acOn)
         {
             if (acOn)
