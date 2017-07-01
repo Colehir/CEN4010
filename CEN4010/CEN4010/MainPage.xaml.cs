@@ -7,9 +7,9 @@ using Xamarin.Forms;
 
 namespace CEN4010
 {
-    Thermostat system = new Thermostat();
     public partial class MainPage : ContentPage
     {
+        Thermostat system = new Thermostat();
         public bool tickEvent()
         {
             Temp.Text = system.getTemperature().ToString();
