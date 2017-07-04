@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-23T00:53:55.941</Modified>
+      <Modified>2017-07-04T15:58:53.728</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\CEN4010.UWP.exe">
       <PackagePath>entrypoint\CEN4010.UWP.exe</PackagePath>
-      <Modified>2017-06-23T00:53:55.517</Modified>
+      <Modified>2017-07-04T15:58:52.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,165 +513,165 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.dll">
       <PackagePath>CEN4010.dll</PackagePath>
-      <Modified>2017-06-23T00:53:53.851</Modified>
+      <Modified>2017-07-04T15:58:51.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-06-08T02:06:56.911</Modified>
+      <Modified>2017-06-27T17:15:43.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
-      <Modified>2017-06-08T02:06:56.872</Modified>
+      <Modified>2017-06-27T17:15:43.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
-      <Modified>2017-06-08T02:06:56.875</Modified>
+      <Modified>2017-06-27T17:15:43.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
-      <Modified>2017-06-08T02:06:56.876</Modified>
+      <Modified>2017-06-27T17:15:43.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-06-08T02:06:56.877</Modified>
+      <Modified>2017-06-27T17:15:43.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
-      <Modified>2017-06-08T02:06:56.879</Modified>
+      <Modified>2017-06-27T17:15:43.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.880</Modified>
+      <Modified>2017-06-27T17:15:43.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.881</Modified>
+      <Modified>2017-06-27T17:15:43.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.882</Modified>
+      <Modified>2017-06-27T17:15:43.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.883</Modified>
+      <Modified>2017-06-27T17:15:43.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.884</Modified>
+      <Modified>2017-06-27T17:15:43.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.885</Modified>
+      <Modified>2017-06-27T17:15:43.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.886</Modified>
+      <Modified>2017-06-27T17:15:43.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.887</Modified>
+      <Modified>2017-06-27T17:15:43.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.889</Modified>
+      <Modified>2017-06-27T17:15:43.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.890</Modified>
+      <Modified>2017-06-27T17:15:43.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.891</Modified>
+      <Modified>2017-06-27T17:15:43.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.892</Modified>
+      <Modified>2017-06-27T17:15:43.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.893</Modified>
+      <Modified>2017-06-27T17:15:43.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.894</Modified>
+      <Modified>2017-06-27T17:15:43.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.895</Modified>
+      <Modified>2017-06-27T17:15:43.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.897</Modified>
+      <Modified>2017-06-27T17:15:43.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.898</Modified>
+      <Modified>2017-06-27T17:15:43.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.900</Modified>
+      <Modified>2017-06-27T17:15:43.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.901</Modified>
+      <Modified>2017-06-27T17:15:43.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.899</Modified>
+      <Modified>2017-06-27T17:15:43.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.903</Modified>
+      <Modified>2017-06-27T17:15:43.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.904</Modified>
+      <Modified>2017-06-27T17:15:43.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.905</Modified>
+      <Modified>2017-06-27T17:15:43.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.906</Modified>
+      <Modified>2017-06-27T17:15:43.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.907</Modified>
+      <Modified>2017-06-27T17:15:43.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:06:56.908</Modified>
+      <Modified>2017-06-27T17:15:43.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\CEN4010.UWP.xr.xml">
       <PackagePath>CEN4010.UWP.xr.xml</PackagePath>
-      <Modified>2017-06-08T02:24:01.789</Modified>
+      <Modified>2017-06-27T17:15:53.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -688,11 +688,11 @@
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-08T02:24:03.343</Modified>
+      <Modified>2017-06-27T17:16:48.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\Core\CEN4010.UWP.exe">
       <PackagePath>CEN4010.UWP.exe</PackagePath>
-      <Modified>2017-06-23T00:53:55.938</Modified>
+      <Modified>2017-07-04T15:58:53.719</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

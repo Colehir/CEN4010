@@ -7,23 +7,17 @@ using Xamarin.Forms;
 
 namespace CEN4010
 {
-    Thermostat system = new Thermostat();
     public partial class MainPage : ContentPage
     {
-        public bool tickEvent()
-        {
-            Temp.Text = system.getTemperature().ToString();
-            return true;
-        }
 
         void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {
-            setTemp.Text = system.changeSet(e.NewValue).ToString();
+            setTemp.Text = ((App)Application.Current).system.changeSet(e.NewValue).ToString();
         }
 
         void toggleAC(object sender, EventArgs e)
         {
-            if(system.toggleAC())
+            if(((App)Application.Current).system.toggleAC())
             {
                 activateAC.Text = "Turn AC Off";
             }
@@ -33,18 +27,30 @@ namespace CEN4010
              }
         }
 
+        public void UpdateTemperature(string temperature)
+        {
+            Temp.Text = temperature;
+        }
+
         public MainPage()
         {
             InitializeComponent();
-
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
             Slider.Value = 70.0;
-            setTemp.Text = system.changeSet(Slider.Value).ToString();
+            setTemp.Text = ((App)Application.Current).system.changeSet(Slider.Value).ToString();
 
             activateAC.Clicked += toggleAC;
 
-            tickEvent();
-            Device.StartTimer(TimeSpan.FromSeconds(1), tickEvent);
             Slider.ValueChanged += OnSliderValueChanged;
+        }
+
+        private async void settings_Clicked(object sender, EventArgs e)
+        {
+            var settingPage = new SettingsPage();
+            await Navigation.PushAsync(settingPage);
         }
     }
 }

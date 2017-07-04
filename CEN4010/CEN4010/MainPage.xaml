@@ -60,7 +60,15 @@
             Text="Turn AC On"
             Grid.Row="3"
             Grid.Column="0"
-            Grid.ColumnSpan="2"
+            Grid.ColumnSpan="1"
+            />
+        <Button
+            x:Name="settings"
+            Text="Settings"
+            Clicked="settings_Clicked"
+            Grid.Row="3"
+            Grid.Column="1"
+            Grid.ColumnSpan="1"
             />
     </Grid>
 

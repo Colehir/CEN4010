@@ -13,3 +13,4 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.MainPage.xaml
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.App.xaml.g.cs
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.pdb
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.SettingsPage.xaml.g.cs
