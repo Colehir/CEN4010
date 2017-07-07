@@ -13,6 +13,15 @@ namespace CEN4010
         void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {
             setTemp.Text = ((App)Application.Current).system.changeSet(e.NewValue).ToString();
+            ThermostatItem update = new ThermostatItem();
+            update.Id = 1;
+            update.SetTemp = (int)e.NewValue;
+            changeSetAsync(update);
+        }
+
+        async void changeSetAsync(ThermostatItem update)
+        {
+            Task test = ((App)Application.Current).client.UpdateThermostat(update, false);
         }
 
         void toggleAC(object sender, EventArgs e)
@@ -30,6 +39,12 @@ namespace CEN4010
         public void UpdateTemperature(string temperature)
         {
             Temp.Text = temperature;
+        }
+
+        public void UpdateSet(int temperature)
+        {
+            setTemp.Text = temperature.ToString();
+            Slider.Value = temperature;
         }
 
         public MainPage()

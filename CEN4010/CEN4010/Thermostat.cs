@@ -50,4 +50,11 @@ namespace CEN4010
         private bool acOnUser = false;
         private Temperature temp = new Temperature();
     }
+
+    public class ThermostatItem
+    {
+        public long Id { get; set; }
+        public int CurrentTemp { get; set; }
+        public int SetTemp { get; set; }
+    }
 }

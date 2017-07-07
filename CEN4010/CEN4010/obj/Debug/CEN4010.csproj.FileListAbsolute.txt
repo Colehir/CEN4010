@@ -14,3 +14,15 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.App.xaml.g.cs
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.pdb
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.SettingsPage.xaml.g.cs
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.dll.config
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Newtonsoft.Json.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Extensions.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Formatting.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Primitives.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Newtonsoft.Json.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Extensions.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Formatting.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Primitives.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.csproj.App.config

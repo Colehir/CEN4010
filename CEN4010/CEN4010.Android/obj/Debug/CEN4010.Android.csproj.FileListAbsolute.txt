@@ -48,3 +48,7 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\asset
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\bin\Debug\CEN4010.Android.dll.config
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\bin\Debug\CEN4010.dll.config
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\bin\Debug\Newtonsoft.Json.xml

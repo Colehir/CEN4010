@@ -12,6 +12,8 @@ namespace CEN4010
         // Globally accessable variables
         public Thermostat system = new Thermostat();
         public CEN4010.MainPage Home;
+        private static ThermostatService ThermService = new ThermostatService();
+        public ThermostatManager client = new ThermostatManager(ThermService);
         public App()
         {
             InitializeComponent();
@@ -24,7 +26,7 @@ namespace CEN4010
         protected override void OnStart()
         {
             tickEvent();
-            Device.StartTimer(TimeSpan.FromSeconds(1), tickEvent);
+            Device.StartTimer(TimeSpan.FromSeconds(5), tickEvent);
             // Handle when your app starts
         }
 
@@ -38,9 +40,21 @@ namespace CEN4010
             // Handle when your app resumes
         }
 
+        public async void TempHandler()
+        {
+            var temperature = system.getTemperature();
+            var item = await client.GetThermostat();
+            if (item.Id != 0)
+            {
+                system.changeSet(item.SetTemp);
+                Home.UpdateSet(item.SetTemp);
+            }
+            Home.UpdateTemperature(temperature.ToString());
+        }
+
         public bool tickEvent()
         {
-            Home.UpdateTemperature(system.getTemperature().ToString());
+            TempHandler();
             return true;
         }
     }
