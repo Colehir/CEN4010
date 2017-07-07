@@ -19,9 +19,9 @@ namespace CEN4010
             changeSetAsync(update);
         }
 
-        async void changeSetAsync(ThermostatItem update)
+        void changeSetAsync(ThermostatItem update)
         {
-            Task test = ((App)Application.Current).client.UpdateThermostat(update, false);
+            ((App)Application.Current).client.UpdateThermostat(update, false);
         }
 
         void toggleAC(object sender, EventArgs e)
@@ -43,8 +43,10 @@ namespace CEN4010
 
         public void UpdateSet(int temperature)
         {
+            Slider.ValueChanged -= OnSliderValueChanged;
             setTemp.Text = temperature.ToString();
             Slider.Value = temperature;
+            Slider.ValueChanged += OnSliderValueChanged;
         }
 
         public MainPage()
