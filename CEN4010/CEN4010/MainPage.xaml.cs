@@ -9,14 +9,26 @@ namespace CEN4010
 {
     public partial class MainPage : ContentPage
     {
-
+        private bool isDirty = false;
+        private int newValue;
         void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {
             setTemp.Text = ((App)Application.Current).system.changeSet(e.NewValue).ToString();
-            ThermostatItem update = new ThermostatItem();
-            update.Id = 1;
-            update.SetTemp = (int)e.NewValue;
-            changeSetAsync(update);
+            newValue = (int)e.NewValue;
+            isDirty = true;
+        }
+
+        bool sliderTick()
+        {
+            if(isDirty == true)
+            {
+                ThermostatItem update = new ThermostatItem();
+                update.Id = 1;
+                update.SetTemp = newValue;
+                changeSetAsync(update);
+                isDirty = false;
+            }
+            return true;
         }
 
         void changeSetAsync(ThermostatItem update)
@@ -53,6 +65,7 @@ namespace CEN4010
         {
             InitializeComponent();
         }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -62,6 +75,8 @@ namespace CEN4010
             activateAC.Clicked += toggleAC;
 
             Slider.ValueChanged += OnSliderValueChanged;
+
+            Device.StartTimer(TimeSpan.FromSeconds(5), sliderTick);
         }
 
         private async void settings_Clicked(object sender, EventArgs e)

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
@@ -40,6 +42,8 @@ namespace CEN4010
             // Handle when your app resumes
         }
 
+        int newTemperature = 0;
+
         public async void TempHandler()
         {
             var temperature = system.getTemperature();
@@ -47,7 +51,16 @@ namespace CEN4010
             if (item.Id != 0)
             {
                 system.changeSet(item.SetTemp);
-                Home.UpdateSet(item.SetTemp);
+
+                if (newTemperature != 0)
+                {
+                    Home.UpdateSet(item.SetTemp);
+                    newTemperature = 0;
+                }
+                else
+                {
+                    newTemperature = item.SetTemp;
+                }
             }
             Home.UpdateTemperature(temperature.ToString());
         }

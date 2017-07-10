@@ -30,7 +30,7 @@ namespace CEN4010
         public async Task<ThermostatItem> GetThermostat()
         {
             var Items = new ThermostatItem();
-            var RestUrl = "http://localhost:7020/api/thermostat/1";
+            var RestUrl = "http://www.colehirapara.com/api/thermostat/1";
             var uri = new Uri(string.Format(RestUrl, string.Empty));
             try
             {
@@ -51,7 +51,7 @@ namespace CEN4010
 
         public async Task UpdateThermostat(ThermostatItem item, bool isNewItem = false)
         {
-            var RestUrl = "http://localhost:7020/api/thermostat";
+            var RestUrl = "http://www.colehirapara.com/api/thermostat";
             var uri = new Uri(RestUrl+"/"+item.Id.ToString());
 
             try
