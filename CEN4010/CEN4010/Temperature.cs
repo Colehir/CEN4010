@@ -18,13 +18,13 @@ namespace CEN4010
             return scaleTemp(ambientTemp, isCelcius);
         }
         
-        public double scaleTemp(double temp, bool scale)    //returns the temperature as celcius or ferenheit as requested
+        public double scaleTemp(double temp, bool scale = false)    //returns the temperature as celcius or ferenheit as requested; defaults to ferenheit
         {
-            if (scale) 
+            if (scale) //return in celcius
             {
                 return (temp-32)*5/9;
             }
-            else
+            else //return in ferenheit
             {
                 return temp;
             }
