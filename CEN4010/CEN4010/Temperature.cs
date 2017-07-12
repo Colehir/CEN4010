@@ -55,7 +55,7 @@ namespace CEN4010
             }
             
         }
-        private bool isCelcius = false;
+        private bool isCelcius = false; //what scale is being used - TODO: link this variable to setting on settings page
         private double temperature = 71.0;
         private double ambientTemp = 80.0;  //temperature without A/C
     }
