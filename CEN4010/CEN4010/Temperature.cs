@@ -20,11 +20,11 @@ namespace CEN4010
         
         public double scaleTemp(double temp, bool scale = false)    //returns the temperature as celcius or ferenheit as requested; defaults to ferenheit
         {
-            if (scale) //return in celcius
+            if (scale) //return temperature in celcius
             {
                 return (temp-32)*5/9;
             }
-            else //return in ferenheit
+            else //return temperature in ferenheit
             {
                 return temp;
             }
