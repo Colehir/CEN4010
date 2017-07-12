@@ -10,12 +10,24 @@ namespace CEN4010
     {
         public double getTemperature()
         {
-            return temperature;
+            return scaleTemp(temperature, isCelcius);
         }
         
         public double getAmbientTemp()
         {
-            return ambientTemp;
+            return scaleTemp(ambientTemp, isCelcius);
+        }
+        
+        public double scaleTemp(double temp, bool scale)    //returns the temperature as celcius or ferenheit as requested
+        {
+            if (scale) 
+            {
+                return (temp-32)*5/9;
+            }
+            else
+            {
+                return temp;
+            }
         }
         
         public double setAmbientTemp(double temp)
@@ -43,6 +55,7 @@ namespace CEN4010
             }
             
         }
+        private bool isCelcius = false;
         private double temperature = 71.0;
         private double ambientTemp = 80.0;  //temperature without A/C
     }
