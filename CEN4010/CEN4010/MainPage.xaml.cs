@@ -20,7 +20,7 @@ namespace CEN4010
 
         bool sliderTick()
         {
-            if(isDirty == true)
+            if(isDirty == true && newValue != Slider.Value)
             {
                 ThermostatItem update = new ThermostatItem();
                 update.Id = 1;
@@ -76,7 +76,7 @@ namespace CEN4010
 
             Slider.ValueChanged += OnSliderValueChanged;
 
-            Device.StartTimer(TimeSpan.FromSeconds(5), sliderTick);
+            Device.StartTimer(TimeSpan.FromSeconds(2), sliderTick);
         }
 
         private async void settings_Clicked(object sender, EventArgs e)

@@ -26,3 +26,6 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Exten
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Formatting.xml
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\System.Net.Http.Primitives.xml
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.csproj.App.config
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.Onboarding.OnboardingPage.xaml.g.cs
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.Onboarding.RemoteSetupPage.xaml.g.cs
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.Onboarding.BaseSetupPage.xaml.g.cs

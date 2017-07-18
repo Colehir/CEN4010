@@ -32,6 +32,9 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\asset
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Text.Encoding.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.ComponentModel.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.IO.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Runtime.Numerics.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Numerics.dll
@@ -42,7 +45,6 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\asset
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
@@ -50,12 +52,10 @@ C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\asset
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Threading.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Reflection.Primitives.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
-C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.Android\obj\Debug\android\assets\Mono.CSharp.dll

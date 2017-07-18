@@ -12,7 +12,7 @@ namespace CEN4010
 {
     public interface IRestService
     {
-        Task<ThermostatItem> GetThermostat();
+        Task<ThermostatItem> GetThermostat(int systemNumber);
 
         Task UpdateThermostat(ThermostatItem item, bool isNewItem);
     }
@@ -27,10 +27,10 @@ namespace CEN4010
             client.MaxResponseContentBufferSize = 256000;
         }
 
-        public async Task<ThermostatItem> GetThermostat()
+        public async Task<ThermostatItem> GetThermostat(int systemNumber)
         {
             var Items = new ThermostatItem();
-            var RestUrl = "http://www.colehirapara.com/api/thermostat/1";
+            var RestUrl = "http://www.colehirapara.com/api/thermostat/" + systemNumber.ToString();
             var uri = new Uri(string.Format(RestUrl, string.Empty));
             try
             {
@@ -90,9 +90,9 @@ namespace CEN4010
             restService = service;
         }
 
-        public async Task<ThermostatItem> GetThermostat()
+        public async Task<ThermostatItem> GetThermostat(int systemNumber)
         {
-            ThermostatItem temp = await restService.GetThermostat();
+            ThermostatItem temp = await restService.GetThermostat(systemNumber);
             return temp;
         }
 
