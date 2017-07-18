@@ -18,9 +18,14 @@ namespace CEN4010
             return scaleTemp(ambientTemp, isCelcius);
         }
         
-        public bool toggleTemp()
+        public bool toggleScale()
         {
             isCelcius=!isCelcius;
+            return isCelcius;
+        }
+        
+        public bool getScale()
+        {
             return isCelcius;
         }
         
