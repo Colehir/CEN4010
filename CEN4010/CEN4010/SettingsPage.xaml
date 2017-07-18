@@ -5,10 +5,11 @@
     <Label Text="Scale"/>
     <Button
     x:Name="scale"
-      Text="Set Scale"
+      Text="Change scale"
       Clicked="change_Scale"
       Grid.Row="3"
       Grid.Column="1"
       Grid.ColumnSpan="1"
     />
+    <Label Text="scaleName"/>
 </ContentPage>
