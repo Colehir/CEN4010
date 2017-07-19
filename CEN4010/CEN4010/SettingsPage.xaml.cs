@@ -21,20 +21,20 @@ namespace CEN4010
         
         void toggleScale(object sender, EventArgs e)
         {
-            bool scale = temp.toggleScale();
-            if(scale)
+            bool currentScale = temp.toggleScale();
+            if(currentScale)
             {
-                scale.Text = "Celsius";
+                scaleName.Text = "Celsius";
             }
             else
             {
-                scale.Text = "Fahrenheit";
+                scaleName.Text = "Fahrenheit";
             }
         }
 
         protected override void OnAppearing()
         {
-            scale.clicked += toggleScale;
+            scale.Clicked += toggleScale;
         }
     }
 }
