@@ -35,7 +35,7 @@ namespace CEN4010
             {
                 return (temp-32)*5/9;
             }
-            else //return temperature in ferenheit
+            else //return temperature in fahrenheit
             {
                 return temp;
             }
