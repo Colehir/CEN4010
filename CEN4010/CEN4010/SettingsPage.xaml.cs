@@ -16,5 +16,10 @@ namespace CEN4010
         {
             InitializeComponent();
         }
+        
+        void toggleScale(object sender, EventArgs e)
+        {
+            toggleScale();
+        }
     }
 }
