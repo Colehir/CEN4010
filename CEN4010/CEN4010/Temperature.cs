@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,23 +10,23 @@ namespace CEN4010
     {
         public double getTemperature()
         {
-            return scaleTemp(temperature, isCelcius);
+            return scaleTemp(temperature, isCelsius);
         }
         
         public double getAmbientTemp()
         {
-            return scaleTemp(ambientTemp, isCelcius);
+            return scaleTemp(ambientTemp, isCelsius);
         }
         
         public bool toggleScale()
         {
-            isCelcius=!isCelcius;
-            return isCelcius;
+            isCelsius=!isCelsius;
+            return isCelsius;
         }
         
         public bool getScale()
         {
-            return isCelcius;
+            return isCelsius;
         }
         
         public double scaleTemp(double temp, bool scale = false)    //returns the temperature as celcius or fahrenheit as requested; defaults to fahrenheit
@@ -64,9 +64,8 @@ namespace CEN4010
                     temperature -= .25;
                 }
             }
-            
         }
-        private bool isCelcius = false; //what scale is being used - TODO: link this variable to setting on settings page
+        private bool isCelsius = false; //what scale is being used - TODO: link this variable to setting on settings page
         private double temperature = 71.0;
         private double ambientTemp = 80.0;  //temperature without A/C
     }
