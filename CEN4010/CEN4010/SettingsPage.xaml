@@ -4,9 +4,12 @@
              x:Class="CEN4010.SettingsPage">
     <Label Text="Scale"/>
     <Button
-    x:Name="scale"
+      x:Name="scale"
       Text="Change scale"
       Clicked="change_Scale"
     />
-    <Label Text="scaleName"/>
+    <Label
+      x:Name="scaleName"
+      Text="Fahrenheit"
+    />
 </ContentPage>
