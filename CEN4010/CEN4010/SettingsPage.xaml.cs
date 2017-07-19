@@ -23,5 +23,10 @@ namespace CEN4010
         {
             temp.toggleScale();
         }
+
+        protected override void OnAppearing()
+        {
+            scale.clicked += toggleScale;
+        }
     }
 }
