@@ -7,9 +7,6 @@
     x:Name="scale"
       Text="Change scale"
       Clicked="change_Scale"
-      Grid.Row="3"
-      Grid.Column="1"
-      Grid.ColumnSpan="1"
     />
     <Label Text="scaleName"/>
 </ContentPage>
