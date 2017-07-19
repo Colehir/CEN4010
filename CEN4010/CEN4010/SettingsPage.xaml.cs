@@ -12,7 +12,6 @@ namespace CEN4010
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SettingsPage : ContentPage
     {
-        Temperature temp = new Temperature();
         
         public SettingsPage()
         {
@@ -21,7 +20,7 @@ namespace CEN4010
         
         void toggleScale(object sender, EventArgs e)
         {
-            bool currentScale = temp.toggleScale();
+            bool currentScale = ((App)Application.Current).system.toggleScale();
             if(currentScale)
             {
                 scaleName.Text = "Celsius";

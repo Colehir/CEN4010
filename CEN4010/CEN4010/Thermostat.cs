@@ -45,6 +45,11 @@ namespace CEN4010
             return acOnUser;
         }
 
+        public bool toggleScale()
+        {
+            return temp.toggleScale();
+        }
+
         private int setTemperature = 80;
         private bool acOn = false;
         private bool acOnUser = false;

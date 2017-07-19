@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CEN4010.SettingsPage">
-    <Label Text="Scale"/>
-    <Button
-      x:Name="scale"
-      Text="Change scale"
-    />
-    <Label
-      x:Name="scaleName"
-      Text="Fahrenheit"
-    />
+    <StackLayout>
+        <Label Text="Scale"/>
+        <Button
+          x:Name="scale"
+          Text="Change scale"
+        />
+        <Label
+          x:Name="scaleName"
+          Text="Fahrenheit"
+        />
+    </StackLayout>
 </ContentPage>
