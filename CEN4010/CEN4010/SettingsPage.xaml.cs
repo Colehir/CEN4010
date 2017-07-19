@@ -21,7 +21,15 @@ namespace CEN4010
         
         void toggleScale(object sender, EventArgs e)
         {
-            temp.toggleScale();
+            bool scale = temp.toggleScale();
+            if(scale)
+            {
+                scale.Text = "1";
+            }
+            else
+            {
+                scale.Text = "2";
+            }
         }
 
         protected override void OnAppearing()
