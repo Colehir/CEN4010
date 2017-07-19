@@ -29,7 +29,7 @@ namespace CEN4010
             return isCelcius;
         }
         
-        public double scaleTemp(double temp, bool scale = false)    //returns the temperature as celcius or ferenheit as requested; defaults to ferenheit
+        public double scaleTemp(double temp, bool scale = false)    //returns the temperature as celcius or fahrenheit as requested; defaults to fahrenheit
         {
             if (scale) //return temperature in celcius
             {
