@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,11 +24,11 @@ namespace CEN4010
             bool scale = temp.toggleScale();
             if(scale)
             {
-                scale.Text = "1";
+                scale.Text = "Celsius";
             }
             else
             {
-                scale.Text = "2";
+                scale.Text = "Fahrenheit";
             }
         }
 
