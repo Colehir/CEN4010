@@ -12,6 +12,8 @@ namespace CEN4010
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SettingsPage : ContentPage
     {
+        Temperature temp = new Temperature();
+        
         public SettingsPage()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace CEN4010
         
         void toggleScale(object sender, EventArgs e)
         {
-            toggleScale();
+            temp.toggleScale();
         }
     }
 }
