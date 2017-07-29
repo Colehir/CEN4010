@@ -34,7 +34,7 @@
             />
             <Image
                 x:Name="systemQR"
-                Source="{local:ImageResource CEN4010.Onboarding.qr.png}"
+                Source="qr.png"
             />
             <Button
                 x:Name="doneBtn"
