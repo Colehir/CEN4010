@@ -74,7 +74,8 @@ namespace CEN4010
                 update.CurrentTemp = temperature;
                 await client.UpdateThermostat(update, false);
             }
-            
+
+            Home.UpdateActivated();
             Home.UpdateTemperature(temperature.ToString());
 
             if (item.Id != 0 && item.SetTemp != system.getSet())

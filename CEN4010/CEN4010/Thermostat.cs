@@ -45,6 +45,11 @@ namespace CEN4010
             return acOnUser;
         }
 
+        public bool getAC()
+        {
+            return acOnUser;
+        }
+
         public bool toggleScale()
         {
             return temp.toggleScale();
@@ -61,5 +66,7 @@ namespace CEN4010
         public long Id { get; set; }
         public int CurrentTemp { get; set; }
         public int SetTemp { get; set; }
+        public bool acActivated { get; set; }
+        public bool toggleAc { get; set; }
     }
 }

@@ -58,6 +58,7 @@ namespace CEN4010
             {
                 var json = JsonConvert.SerializeObject(item);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
+                Debug.WriteLine(json);
 
                 HttpResponseMessage response = null;
                 if (isNewItem)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,12 +41,16 @@ namespace CEN4010
         {
             if(((App)Application.Current).system.toggleAC())
             {
-                activateAC.Text = "Turn AC Off";
+                activateAC.Text = "AC: On\n\nTurn AC Off";
             }
             else
             {
-                activateAC.Text = "Turn AC On";
-             }
+                activateAC.Text = "AC: Off\n\nTurn AC On";
+            }
+            ThermostatItem update = new ThermostatItem();
+            update.Id = 1;
+            update.toggleAc = true;
+            ((App)Application.Current).client.UpdateThermostat(update, false);
         }
 
         public void UpdateTemperature(string temperature)
@@ -77,6 +82,25 @@ namespace CEN4010
             Slider.ValueChanged += OnSliderValueChanged;
 
             Device.StartTimer(TimeSpan.FromSeconds(2), sliderTick);
+
+            UpdateActivated();
+        }
+
+        public async void UpdateActivated()
+        {
+            ThermostatItem item = await ((App)Application.Current).client.GetThermostat(1);
+            if (((App)Application.Current).system.getAC() != item.acActivated)
+            {
+                ((App)Application.Current).system.toggleAC();
+                if (item.acActivated)
+                {
+                    activateAC.Text = "AC: On\n\nTurn AC Off";
+                }
+                else
+                {
+                    activateAC.Text = "AC: Off\n\nTurn AC On";
+                }
+            }
         }
 
         private async void settings_Clicked(object sender, EventArgs e)
