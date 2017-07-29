@@ -20,6 +20,7 @@ namespace CEN4010.Onboarding
         {
             base.OnAppearing();
             systemNumber.Text = "1";
+            systemQR.Source = ImageSource.FromResource("CEN4010.Onboarding.qr.png");
         }
         private void done_Clicked(object sender, EventArgs e)
         {

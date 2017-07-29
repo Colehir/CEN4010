@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-26T17:37:22.390</Modified>
+      <Modified>2017-07-29T18:41:19.189</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\CEN4010.UWP.exe">
       <PackagePath>entrypoint\CEN4010.UWP.exe</PackagePath>
-      <Modified>2017-07-26T17:37:21.703</Modified>
+      <Modified>2017-07-29T18:41:18.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -549,11 +549,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.dll">
       <PackagePath>CEN4010.dll</PackagePath>
-      <Modified>2017-07-26T17:37:19.516</Modified>
+      <Modified>2017-07-29T18:41:17.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.dll.config">
       <PackagePath>CEN4010.dll.config</PackagePath>
-      <Modified>2017-07-18T17:22:24.092</Modified>
+      <Modified>2017-07-29T18:33:11.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -728,11 +728,11 @@
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-10T13:12:32.968</Modified>
+      <Modified>2017-07-29T17:47:20.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\Core\CEN4010.UWP.exe">
       <PackagePath>CEN4010.UWP.exe</PackagePath>
-      <Modified>2017-07-26T17:37:22.386</Modified>
+      <Modified>2017-07-29T18:41:19.186</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

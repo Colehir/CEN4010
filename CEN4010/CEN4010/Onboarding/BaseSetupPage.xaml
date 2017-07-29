@@ -14,7 +14,7 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <Label 
-                Text="Here is your Thermostat Id Number"
+                Text="Scan QR code or enter Thermostat number on your device to connect to this thermostat."
                 Grid.Row="0"
                 Grid.Column="0"
                 FontSize="Medium"
@@ -27,14 +27,14 @@
                 x:Name="systemNumber"
                 Grid.Column="0"
                 Grid.Row="1"
-                Grid.ColumnSpan="2"
-                FontSize="Medium"
+                FontSize="Large"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
             />
             <Image
                 x:Name="systemQR"
-                Source="{local:ImageResource CEN4010.Onboarding.qr.png}"
+                Grid.Column="1"
+                Grid.Row="1"
             />
             <Button
                 x:Name="doneBtn"
