@@ -18,6 +18,12 @@ namespace CEN4010
 			InitializeComponent ();
 		}
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            logoImage.Source = ImageSource.FromResource("CEN4010.logo.jpg");
+        }
+
         private async void base_Clicked(object sender, EventArgs e)
         {
             var baseSetup = new BaseSetupPage();
